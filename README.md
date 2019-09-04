@@ -81,7 +81,7 @@ This is a collection of the top 100 problems from LeetCode.
 
 * [Set Matrix Zeroes](problems/placeholder)
 * [Spiral Matrix](problems/placeholder)
-* [Rotate Image](problems/placeholder)
+* [Rotate Image](https://github.com/kaihuang97/preparation/blob/master/problems/Rotate%20Image.md)
 * [Word Search](problems/placeholder)
 
 ### String
