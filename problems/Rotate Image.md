@@ -47,6 +47,27 @@ You have to rotate the image in-place, which means you have to modify the input 
 
 ## Solution
 
+Reverse the vertical order of the matrix row, then perform a transpose to swap top-right triangle. 
+By swapping the contents of each index with its flipped index above the diagonal, we achieve a simple n x n transpose.
 
 
 ## Code
+```cpp
+class Solution {
+public:
+    /*
+     * clockwise rotate
+     * first reverse up to down, then swap the symmetry (transpose)
+     * 1 2 3     7 8 9     7 4 1
+     * 4 5 6  => 4 5 6  => 8 5 2
+     * 7 8 9     1 2 3     9 6 3
+    */
+    void rotate(vector<vector<int>>& matrix) {
+        reverse(matrix.begin(), matrix.end());
+        for (int i = 0; i < matrix.size(); i++) {
+            for (int j = i + 1; j < matrix[i].size(); j++)
+                swap(matrix[i][j], matrix[j][i]);
+        }
+    }
+};
+```
