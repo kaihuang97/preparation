@@ -15,6 +15,9 @@ You may assume that each input would have exactly one solution, and you may not 
 
 ## Solution
 
+The goal is to return the indices of 2 numbers from an input array such that they add up to a certain target sum.
+The restriction is that the same element can't be used twice and that each input has only 1 exact solution.
+
 Build hash map of (number, index).
 For each number, if its result of (target - current number) is found in the hash map, then return hashed index of (target - current number) and the current number's index. 
 If the result is not found in the hash map, then add the current number and its index as a pair. 
