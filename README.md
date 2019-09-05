@@ -8,17 +8,17 @@ This is a collection of the top 100 problems from LeetCode.
 
 ### Array
 
-* [Two Sum](problems/placeholder)
-* [3 Sum](problems/placeholder)
-* [Best Time to Buy and Sell Stock](problems/placeholder)
-* [Contains Duplicate](problems/placeholder)
-* [Product of Array Except Self](problems/placeholder)
-* [Maximum Subarray](problems/placeholder)
-* [Maximum Product Subarray](problems/placeholder)
-* [Find Minimum in Rotated Sorted Array](problems/placeholder)
-* [Search in Rotated Sorted Array](problems/placeholder)
-* [Container With Most Water](problems/placeholder)
-* [Trapping Rain Water](problems/placeholder)
+* [Two Sum](problems/Two_Sum.md)
+* [3 Sum](problems/3_Sum.md)
+* [Best Time to Buy and Sell Stock](problems/Best_Time_to_Buy_and_Sell_Stock.md)
+* [Contains Duplicate](problems/Contains_Duplicate.md)
+* [Product of Array Except Self](problems/Product_of_Array_Except_Self.md)
+* [Maximum Subarray](problems/Maximum_Subarray.md)
+* [Maximum Product Subarray](problems/Maximum_Product_Subarray.md)
+* [Find Minimum in Rotated Sorted Array](problems/Find_Minimum_in_Rotated_Sorted_Array.md)
+* [Search in Rotated Sorted Array](problems/Search_in_Rotated_Sorted_Array.md)
+* [Container With Most Water](problems/Container_With_Most_Water.md)
+* [Trapping Rain Water](problems/Trapping_Rain_Water.md)
 
 ### Binary
 
@@ -81,7 +81,7 @@ This is a collection of the top 100 problems from LeetCode.
 
 * [Set Matrix Zeroes](problems/placeholder)
 * [Spiral Matrix](problems/placeholder)
-* [Rotate Image](https://github.com/kaihuang97/preparation/blob/master/problems/Rotate%20Image.md)
+* [Rotate Image](problems/Rotate_Image.md)
 * [Word Search](problems/placeholder)
 
 ### String
