@@ -6,12 +6,12 @@ Given an array of consecutive positive integers, find the one that is missing fr
 
 **Example 1:**
 
-	Input: [1,2,3,4,6,7]
-	Output: 5
+    Input: [1,2,3,4,6,7]
+    Output: 5
 **Example 2:**
 
-	Input: [10,12,13,14,15]
-	Output: 11
+    Input: [10,12,13,14,15]
+    Output: 11
 
 ## Solution
 
@@ -28,39 +28,39 @@ Therefore, the overall time complexity is O(log(n)) utilizing binary search, and
 ```cpp
 class Solution {
 public:
-	int find_missing (vector<int>& nums){
-		int start = 0;
-		int end = nums.size() - 1;
-		int mid = (start + end)/2;
+    int find_missing (vector<int>& nums){
+        int start = 0;
+        int end = nums.size() - 1;
+        int mid = (start + end)/2;
 
-		while (start < end) {
-			// difference between indexes vs. difference between values
-			if ((nums[mid] - nums[start]) != (mid - start)) {
-				// there is a hole in the start half
-				if ((mid - start) == 1 && (nums[mid] - nums[start] > 1)) {
-					// location of mid is after start, so take mid - 1
-					return (nums[mid] - 1);
-				}
+        while (start < end) {
+            // difference between indexes vs. difference between values
+            if ((nums[mid] - nums[start]) != (mid - start)) {
+                // there is a hole in the start half
+                if ((mid - start) == 1 && (nums[mid] - nums[start] > 1)) {
+                    // location of mid is after start, so take mid - 1
+                    return (nums[mid] - 1);
+                }
 
-				end = mid;
-			} else if ((nums[end] - nums[mid]) != (end - mid)) {
-				// there is a hole in the second half
-				if ((end - mid) == 1 && (nums[end] - nums[mid] > 1)) {
-					// location of mid is before end, so take mid + 1
-					return (nums[mid] + 1);
-				}
+                end = mid;
+            } else if ((nums[end] - nums[mid]) != (end - mid)) {
+                // there is a hole in the second half
+                if ((end - mid) == 1 && (nums[end] - nums[mid] > 1)) {
+                    // location of mid is before end, so take mid + 1
+                    return (nums[mid] + 1);
+                }
 
-				start = mid;
-			} else {
-				// there is no hole
-				return 0;
-			}
+                start = mid;
+            } else {
+                // there is no hole
+                return 0;
+            }
 
-			mid = (start + end)/2;
-		}
+            mid = (start + end)/2;
+        }
 
-		// there is no hole
-		return 0;
-	}
+        // there is no hole
+        return 0;
+    }
 }
 ```
