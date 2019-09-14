@@ -36,18 +36,18 @@ public:
 		while (start < end) {
 			// difference between indexes vs. difference between values
 			if ((nums[mid] - nums[start]) != (mid - start)) {
-			    // there is a hole in the start half
-			    if ((mid - start) == 1 && (nums[mid] - nums[start] > 1)) {
-			    	// location of mid is after start, so take mid - 1
-			        return (nums[mid] - 1);
-			    }
+				// there is a hole in the start half
+				if ((mid - start) == 1 && (nums[mid] - nums[start] > 1)) {
+					// location of mid is after start, so take mid - 1
+					return (nums[mid] - 1);
+				}
 
-			    end = mid;
+				end = mid;
 			} else if ((nums[end] - nums[mid]) != (end - mid)) {
 				// there is a hole in the second half
 				if ((end - mid) == 1 && (nums[end] - nums[mid] > 1)) {
 					// location of mid is before end, so take mid + 1
-				    return (nums[mid] + 1);
+					return (nums[mid] + 1);
 				}
 
 				start = mid;
