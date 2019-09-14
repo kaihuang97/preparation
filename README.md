@@ -19,7 +19,7 @@ This is a collection of the top 100 problems from LeetCode.
 * [Search in Rotated Sorted Array](problems/Search_in_Rotated_Sorted_Array.md)
 * [Container With Most Water](problems/Container_With_Most_Water.md)
 * [Trapping Rain Water](problems/Trapping_Rain_Water.md)
-* [Missing Number in Sorted Array](problem/Missing_Number_in_Sorted_Array.md)
+* [Missing Number in Sorted Array](problems/Missing_Number_in_Sorted_Array.md)
 
 ### Binary
 
