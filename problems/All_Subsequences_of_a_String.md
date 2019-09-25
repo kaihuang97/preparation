@@ -7,7 +7,7 @@ A subsequence is a sequence that can be derived from another sequence by deletin
 
 ## Solution
 
-![alt text](images/Subsequences_Tree.png "Recursive Tree")
+![alt text](./images/Subsequences_Tree.png "Recursive Tree")
 
 ## Code
 
