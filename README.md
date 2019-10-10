@@ -88,11 +88,11 @@ This is a collection of the top 100 problems from LeetCode.
 ### String
 
 * [Longest Substring Without Repeating Characters](problems/Longest_Substring_Without_Repeating_Characters.md)
-* [Longest Repeating Character Replacement](problems/placeholder)
+* [Longest Repeating Character Replacement](problems/Longest_Repeating_Character_Replacement)
 * [Minimum Window Substring](problems/placeholder)
-* [Valid Anagram](problems/placeholder)
-* [Group Anagrams ](problems/placeholder)
-* [Valid Parentheses](problems/placeholder)
+* [Valid Anagram](problems/Valid_Anagram)
+* [Group Anagrams](problems/Group_Anagrams)
+* [Valid Parentheses](problems/Valid_Parentheses)
 * [Valid Palindrome](problems/placeholder)
 * [Longest Palindromic Substring](problems/placeholder)
 * [Palindromic Substrings](problems/placeholder)
