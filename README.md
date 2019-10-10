@@ -87,7 +87,7 @@ This is a collection of the top 100 problems from LeetCode.
 
 ### String
 
-* [Longest Substring Without Repeating Characters](problems/placeholder)
+* [Longest Substring Without Repeating Characters](problems/Longest_Substring_Without_Repeating_Characters.md)
 * [Longest Repeating Character Replacement](problems/placeholder)
 * [Minimum Window Substring](problems/placeholder)
 * [Valid Anagram](problems/placeholder)
